@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/roboto.css"/>
+    <link rel="stylesheet" href="./frow/dist/frow.min.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    
+    <style>
+        body {
+            background: #f4f4f4;
+            font-family: "Roboto";
+            -webkit-touch-callout: none;  /* iPhone OS, Safari */
+            -webkit-user-select: none;    /* Chrome, Safari 3 */
+            -khtml-user-select: none;     /* Safari 2 */
+            -moz-user-select: none;       /* Firefox */
+            -ms-user-select: none;        /* IE10+ */
+            user-select: none;
+        }
+
+        .connatiner-date {
+            min-width: 400px;
+            width: 400px;
+            background: white;
+            margin: 8px;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        .week-day {
+
+        }
+
+        .day-number {
+            margin-top: 15px;
+            background: #f4f4f4;
+            padding: 8px;
+            border-radius: 50%;
+        }
+
+        .day-number-active {
+            background: #01a198 !important;
+            color: white !important;
+        }
+
+        .day-number-none {
+            background: transparent !important;
+        }
+
+        .margin-8 {
+            margin: 8px;
+        }
+
+        .padding-10px {
+            padding: 10px;
+        }
+
+        .month-ship {
+            background: #f4f4f4;
+            width: 150px;
+            margin: 0px 10px;
+            padding: 6px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .year-ship {
+            background: #f4f4f4;
+            width: 100px;
+            margin: 0px 10px;
+            padding: 6px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div  class="frow">
+    <div class="connatiner-date">
+        <div class="frow row-end margin-8">
+            <div class="frow month-ship">Dezembro</div>
+            <div class="frow year-ship">2021</div>
+        </div>
+
+        <div class="frow">
+
+            <div class="frow column-center margin-8">
+                <div>Seg</div>
+                <div class="day-number">01</div>
+            </div>
+
+            <div class="frow column-center margin-8">
+                <div>Ter</div>
+                <div class="day-number" >02</div>
+            </div>
+
+            <div class="frow column-center margin-8">
+                <div>Qua</div>
+                <div class="day-number day-number-active">03</div>
+            </div>
+
+            <div class="frow column-center margin-8">
+                <div>Qui</div>
+                <div class="day-number">04</div>
+            </div>
+
+            <div class="frow column-center margin-8">
+                <div>Sex</div>
+                <div class="day-number">05</div>
+            </div>
+
+            <div class="frow column-center margin-8">
+                <div>Sab</div>
+                <div class="day-number">06</div>
+            </div>
+            
+            <div class="frow column-center margin-8">
+                <div>Dom</div>
+                <div class="day-number">07</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
